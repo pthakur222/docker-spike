@@ -1,0 +1,63 @@
+{
+    "countries":  [
+          {
+              "code": "UK",
+              "name": "UNITED KINGDOM",
+              "templateType": "NON_IBAN_TYPE"
+          },
+          {
+              "code": "AR",
+              "name": "ARGENTINA",
+              "templateType": "NON_IBAN_TYPE"
+          },
+          {
+              "code": "AU",
+              "name": "AUSTRALIA",
+              "templateType": "CLEARING_CODE_TYPE",
+              "routingDetails": {
+                  "code": "AU",
+                  "label": "Bank-State-Branch (BSB) Code"
+              }
+          },
+          {
+              "code": "IN",
+              "name": "INDIA",
+              "templateType": "CLEARING_CODE_TYPE",
+              "routingDetails": {
+                  "code": "IN",
+                  "label": "IFSC - Indian Financial Sys Cd"
+              }
+          },
+          {
+              "code": "IT",
+              "name": "ITALY",
+              "templateType": "IBAN_TYPE"
+          },
+          {
+              "code": "NP",
+              "name": "NEPAL",
+              "templateType": "NON_IBAN_TYPE"
+          },
+          {
+              "code": "LK",
+              "name": "SRI LANKA",
+              "templateType": "NON_IBAN_TYPE"
+          },
+          {
+              "code": "SE",
+              "name": "SWEDEN",
+              "templateType": "IBAN_TYPE"
+          },
+          {
+              "code": "CH",
+              "name": "SWITZERLAND",
+              "templateType": "IBAN_TYPE"
+          },
+          {
+              "code": "UAE",
+              "name": "UNITED ARAB EMIRATES",
+              "templateType": "NON_IBAN_TYPE"
+          }
+      ]
+
+  }

@@ -1,0 +1,34 @@
+{"recipient":[
+    {
+        "RecipientName": "Jake Thoms",
+        "RecipientCountry": "United Kingdom",
+        "TemplateId": "101",
+        "RcipientCountryCode": "UK"
+    },
+    {
+        "RecipientName": "Richard Wills",
+        "RecipientCountry": "Australia",
+        "TemplateId": "102",
+        "RcipientCountryCode": "AUS"
+    },
+    {
+        "RecipientName": "Sakshi Singh",
+        "RecipientCountry": "India",
+        "TemplateId": "103",
+        "RcipientCountryCode": "IN"
+    },
+    {
+        "RecipientName": "Mike",
+        "RecipientCountry": "France",
+        "TemplateId": "104",
+        "RcipientCountryCode": "EUR"
+    },
+    {
+        "RecipientName": "Mukesh Kumar",
+        "RecipientCountry": "India",
+        "TemplateId": "105",
+        "RcipientCountryCode": "IN"
+    }
+]
+
+}

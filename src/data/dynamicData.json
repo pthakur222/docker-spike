@@ -1,0 +1,163 @@
+{
+    "countryData": [{
+	"RecipientDetails": {
+		"TemplateID": "1",
+		"Benificiary": "12345678",
+		"BIC": "abcd",
+		"SWIFT": "",
+		"IBAN": "",
+		"ClearingCode": "",
+		"BeneficiaryBankAddress": "xyz,India",
+		"BeneficiaryName": "Test Account",
+		"BeneficiaryAddress": "abc,India",
+		"CountryCode": "IN"
+	},
+	"CountryDetails": {
+		"CountryCode": "IN",
+		"CountryName": "India",
+		"CurrencyCode": "INR",
+		"Currencydescription": "Indian Rupees"
+	},
+	"ScreenRules": [{
+			"RuleID": "1",
+			"CountryCode": "IN",
+			"FieldLabel": "Amount",
+			"Field ID": "amt",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		},
+		{
+			"RuleID": "2",
+			"CountryCode": "IN",
+			"FieldLabel": "Remarks",
+			"Field ID": "rmrks",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		},
+		{
+			"RuleID": "3",
+			"CountryCode": "IN",
+			"FieldLabel": "Reason for payment",
+			"Field ID": "rsn4pmt",
+			"ControlID": "dpd",
+			"isrequired": "TRUE",
+			"ControlValues": [
+				 "Family Support",
+				 "Holiday",
+				"Education"
+            ]
+		}
+	]
+},
+{
+	"RecipientDetails": {
+		"TemplateID": "2",
+		"Benificiary": "12345678",
+		"BIC": "abcd",
+		"SWIFT": "",
+		"IBAN": "",
+		"ClearingCode": "",
+		"BeneficiaryBankAddress": "xyz,UK",
+		"BeneficiaryName": "Test Account",
+		"BeneficiaryAddress": "abc,United Kingdom",
+		"CountryCode": "UK"
+	},
+	"CountryDetails": {
+		"CountryCode": "UK",
+		"CountryName": "United Kingdom",
+		"CurrencyCode": "GBP",
+		"Currencydescription": "British Pound"
+	},
+	"ScreenRules": [{
+			"RuleID": "1",
+			"CountryCode": "UK",
+			"FieldLabel": "Amount",
+			"Field ID": "amt",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		},
+		{
+			"RuleID": "2",
+			"CountryCode": "UK",
+			"FieldLabel": "Remarks",
+			"Field ID": "rmrks",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		}
+	]
+},
+{
+	"RecipientDetails": {
+		"TemplateID": "3",
+		"Benificiary": "12345678",
+		"BIC": "abcd",
+		"SWIFT": "",
+		"IBAN": "",
+		"ClearingCode": "",
+		"BeneficiaryBankAddress": "xyz,UAE",
+		"BeneficiaryName": "Test Account",
+		"BeneficiaryAddress": "abc,UAE",
+		"CountryCode": "UAE"
+	},
+	"CountryDetails": {
+		"CountryCode": "UAE",
+		"CountryName": "United Arab Emirates",
+		"CurrencyCode": "UAE",
+		"Currencydescription": "Dirham"
+	},
+	"ScreenRules": [{
+			"RuleID": "1",
+			"CountryCode": "UAE",
+			"FieldLabel": "Amount",
+			"Field ID": "amt",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		}
+	]
+},
+{
+	"RecipientDetails": {
+		"TemplateID": "4",
+		"Benificiary": "12345678",
+		"BIC": "abcd",
+		"SWIFT": "",
+		"IBAN": "",
+		"ClearingCode": "",
+		"BeneficiaryBankAddress": "xyz,Australia",
+		"BeneficiaryName": "Test Account",
+		"BeneficiaryAddress": "abc,India",
+		"CountryCode": "IN"
+	},
+	"CountryDetails": {
+		"CountryCode": "AUS",
+		"CountryName": "Australia",
+		"CurrencyCode": "AUS",
+		"Currencydescription": "Dollars"
+	},
+	"ScreenRules": [{
+			"RuleID": "1",
+			"CountryCode": "AUS",
+			"FieldLabel": "Amount",
+			"Field ID": "amt",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		},
+		{
+			"RuleID": "2",
+			"CountryCode": "AUS",
+			"FieldLabel": "Promotion Code",
+			"Field ID": "rmrks",
+			"ControlID": "txt",
+			"isrequired": "TRUE",
+			"ControlValues": null
+		}
+	]
+}]
+
+}
