@@ -3,5 +3,7 @@ services:
   - docker
 
 script:
-  - docker-compose build -t pthakur222/dockerapp .
-  - docker-compose up -d pthakur222/dockerapp
+  - docker-compose build
+  - docker-compose up -d pthakur222/mongo
+  - docker-compose up -d pthakur222/app
+  - docker-compose up -d pthakur222/client
