@@ -13,6 +13,5 @@ deploy:
   provider: script
   script: docker push pthakur222/docker-spike_app
   skip_cleanup: true
-  edge: true
   on:
     branch: master
