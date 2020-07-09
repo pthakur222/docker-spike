@@ -3,5 +3,5 @@ services:
   - docker
 
 script:
-  - docker build -t pthakur222/dockerapp .
-  - docker images pthakur222/dockerapp
+  - docker-compose build -t pthakur222/dockerapp .
+  - docker-compose up -d pthakur222/dockerapp
